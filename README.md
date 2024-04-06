@@ -1,5 +1,5 @@
 # minecraft-protocol-forge
-[![NPM version](https://img.shields.io/npm/v/minecraft-protocol-forge.svg)](http://npmjs.com/package/minecraft-protocol-forge)
+[![NPM version](https://img.shields.io/npm/v/@tcortega/minecraft-protocol-forge.svg)](http://npmjs.com/package/@tcortega/minecraft-protocol-forge)
 [![Join the chat at https://gitter.im/PrismarineJS/node-minecraft-protocol](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/PrismarineJS/node-minecraft-protocol)
 
 Adds FML/Forge support to [node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) (requires 0.17+)
@@ -15,7 +15,7 @@ Installable as a plugin for use with node-minecraft-protocol:
 
 ```javascript
 var mc = require('minecraft-protocol');
-var forgeHandshake = require('minecraft-protocol-forge').forgeHandshake;
+var forgeHandshake = require('@tcortega/minecraft-protocol-forge').forgeHandshake;
 var client = mc.createClient({
     host: host,
     port: port,
@@ -40,7 +40,7 @@ be used:
 
 ```javascript
 var mc = require('minecraft-protocol');
-var autoVersionForge = require('minecraft-protocol-forge').autoVersionForge;
+var autoVersionForge = require('@tcortega/minecraft-protocol-forge').autoVersionForge;
 var client = mc.createClient({
     version: false,
     host: host,
@@ -58,7 +58,7 @@ know if they are Forge or not, or what mods they are using.
 
 ## Installation
 
-`npm install minecraft-protocol-forge`
+`npm install @tcortega/minecraft-protocol-forge`
 
 ## Debugging
 
