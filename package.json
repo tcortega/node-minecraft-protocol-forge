@@ -1,10 +1,10 @@
 {
-  "name": "minecraft-protocol-forge",
+  "name": "@tcortega/minecraft-protocol-forge",
   "version": "1.1.0",
   "description": "Adds FML/Forge support to node-minecraft-protocol",
   "repository": {
     "type": "git",
-    "url": "git://github.com/deathcap/node-minecraft-protocol-forge.git"
+    "url": "git://github.com/tcortega/node-minecraft-protocol-forge.git"
   },
   "scripts": {
     "test": "npm run mochaTest",
@@ -35,6 +35,6 @@
   "devDependencies": {
     "mocha": "^10.2.0",
     "standard": "^17.1.0",
-    "minecraft-protocol-forge":"file:."
+    "minecraft-protocol-forge": "file:."
   }
 }
